@@ -1,0 +1,55 @@
+/* background inage */
+
+.main-header {
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    color: white;
+}
+
+.main-header > .hero {
+    padding-top: 100px;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-google-plus-g:hover {
+    color: #DD5144;
+
+}
+
+.fa-twitter:hover {
+    color: #55ADEE;
+
+}
+
+.fa-instagram:hover {
+    color: #FE3C47;
+}
+
+.fa-linkedin :hover {
+    color: #3B5998;
+}
+
+.fa-html5:hover {
+    color: #E44D26;
+}
+
+.fa-css3-alt:hover {
+    color: blue;
+}
+
+.fa-js:hover {
+    color: #F8DB3F;
+}
+
+.fa-free-code-camp :hover {
+    color: green;
+}
+
+.fa-codepen :hover {
+    color: deepskyblue;
+}
