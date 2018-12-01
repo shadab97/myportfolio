@@ -1,11 +1,32 @@
 /* background inage */
 
 .main-header {
-    background-image: url(../img/background2.jpg);
+    /* background-image: url(../img/background2.jpg); */
     background-size: cover;
     background-position: center;
     min-height: 700px;
     color: white;
+    background: #FC466B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease-in infinite;
+}
+
+.main-nav {
+    background: #FC466B !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B) i !mportant;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 400% 1% !important;
+    animation: BackgroundGradientnav 10s ease-in infinite;
 }
 
 .main-header > .hero {
@@ -52,4 +73,32 @@
 
 .fa-codepen :hover {
     color: deepskyblue;
+}
+
+@keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes BackgroundGradientnav {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
