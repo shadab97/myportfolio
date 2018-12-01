@@ -75,6 +75,10 @@
     color: deepskyblue;
 }
 
+.btn-floating {
+    z-index: -1;
+}
+
 @keyframes BackgroundGradient {
     0% {
         background-position: 0% 50%;
