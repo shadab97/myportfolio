@@ -1,10 +1,8 @@
-/* background inage */
+.hero {
 
-.main-header {
-    /* background-image: url(../img/background2.jpg); */
     background-size: cover;
     background-position: center;
-    min-height: 700px;
+    min-height: 100vh;
     color: white;
     background: #FC466B;
     /* fallback for old browsers */
@@ -29,51 +27,58 @@
     animation: BackgroundGradientnav 10s ease-in infinite;
 }
 
+.skills li {
+    float: left;
+    margin: 15px;
+}
+
+.mt-5 {
+    margin-top: 15%;
+}
+
+.skilss-img {
+    max-height: 3.5rem;
+}
+
+.skills {
+    margin-top: 100vh;
+}
+
+.my-img {
+    min-height: 150px;
+    min-width: 150px;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+.myimage {
+    background-image: url(/img/IMG-20170206-WA0020.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
 .main-header > .hero {
     padding-top: 100px;
 }
 
-.fa-facebook-square:hover {
-    color: #3B5998;
+
+
+
+
+.fa-linkedin,
+.fa-github,
+.fa-twitter,
+.fa-instagram {
+    color: white;
 }
 
-.fa-google-plus-g:hover {
-    color: #DD5144;
-
-}
-
-.fa-twitter:hover {
-    color: #55ADEE;
-
-}
-
-.fa-instagram:hover {
-    color: #FE3C47;
-}
-
-.fa-linkedin :hover {
-    color: #3B5998;
-}
-
-.fa-html5:hover {
-    color: #E44D26;
-}
-
-.fa-css3-alt:hover {
-    color: blue;
-}
-
-.fa-js:hover {
-    color: #F8DB3F;
-}
-
-.fa-free-code-camp :hover {
-    color: green;
-}
-
-.fa-codepen :hover {
-    color: deepskyblue;
-}
 
 .btn-floating {
     z-index: -1;
