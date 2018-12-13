@@ -13,6 +13,7 @@
 
     background-size: 400% 400%;
     animation: BackgroundGradient 30s ease-in infinite;
+    border-bottom: 10px solid 100px;
 }
 
 .main-nav {
@@ -41,7 +42,15 @@
 }
 
 .skills {
-    margin-top: 100vh;
+
+    margin-top: 90vh;
+    background-image: url(/img/laptop-1478822_1920.jpg);
+    background-attachment: fixed;
+    height: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
 }
 
 .my-img {
